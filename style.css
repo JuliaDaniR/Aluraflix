@@ -1,0 +1,153 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/background-aluraflix.png");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 170px;
+}
+
+.alura-latam-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+body > img {
+  margin: 0 10px;
+}
+
+img {
+  max-height: 250px;
+}
+
+.titulo {
+  font-size: 2rem;
+  font-weight: 900;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: aqua;
+  margin: 2rem auto;
+  padding: 2rem 2rem;
+  border-bottom: 3px double darkcyan;
+}
+
+.container-contenido {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+}
+.item {
+  width: 20%;
+  margin: 2rem auto;
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 5px 3px 8px rgba(0, 0, 0, 0.5);
+}
+.item img {
+  width: 200px;
+  max-width:100%;
+  height: 90%;
+  box-shadow: 5px 3px 8px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
+}
+.item img:hover{
+  transform: scale(1.05);  
+}
+.item h2 {
+  width: 80%;
+  margin: 1.5rem auto;
+  text-align: center;
+}
+.item a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.container-imagen{
+  margin: auto;
+  align-items: center;
+}
+.container-eliminar{
+  height: 50px;
+}
+.eliminar-item {
+  color: darkred;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.containerAgregarContenido {
+  margin: 3rem auto;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: darkcyan;
+}
+
+.containerAgregarContenido input {
+  width: 30%;
+  font-size: 1.5rem;
+  margin: 1rem auto;
+  border-radius: 10px;
+  text-align: center;
+  padding: 0.4rem 0.2rem;
+}
+.containerAgregarContenido button {
+  font-size: 1.3rem;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  background: none;
+  color: #ffffff;
+  border: 2px solid white;
+  box-shadow: 7px 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.exito {
+  font-size: 90%;
+  color: darkgreen;
+  padding: 0.5rem;
+}
+nav{
+  display: flex;
+  justify-content: center;
+}
+
+nav button{
+ font-size: 85%;
+ border-radius: 10px;
+ background: linear-gradient(45deg, rgb(8, 99, 96) 50%, rgb(17, 121, 135) 100%);
+ color: antiquewhite;
+ font-weight: 700;
+ width: 20%;
+ height: 6rem;
+ margin-top: 5rem;
+ margin: auto .5rem;
+ box-shadow: 7px 4px 12px rgba(0, 0, 0, 0.5);
+ cursor: pointer;
+}
+
+nav button:hover{
+  background: antiquewhite;
+  color: darkolivegreen;
+}
+
